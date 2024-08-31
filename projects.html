@@ -7,27 +7,153 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg"></div>
+
+<div class="star-field">
+<div class="layer"></div>
+<div class="layer"></div>
+<div class="layer"></div>
 
     <div class="container">
   
-    <div class="sidebar"> 
-
+      <div class ="sidebar"> 
+        
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">My Projects</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact Me<a></li>
+                <li  class="nav-name"><a href="index.html">Rabia Ahmed</a></li>
+                <li style="display: flex;align-items: center;">
+                    <img width="25" height="25" 
+                    style="display: inline-block; vertical-align: middle;" 
+                    src="https://img.icons8.com/ios-filled/50/home.png"
+                     alt="home"/>&emsp;
+                     <a href="index.html">Home</a>
+                    </li>
+                <li style="display: flex;align-items: center;">
+                    <img width="25" height="25" 
+                    style="display: inline-block; vertical-align: middle;" 
+                      src="https://img.icons8.com/ios-filled/50/group-of-projects.png" alt="group-of-projects"/>&emsp;<a href="projects.html">My Projects</a></li>
+                <li style="display: flex;align-items: center;"><img width="25" height="25"
+                    style="display: inline-block; vertical-align: middle;" 
+                     src="https://img.icons8.com/sf-black-filled/64/admin-settings-male.png" alt="admin-settings-male"/>
+                     &emsp;
+                    <a href="skills.html">Skills</a></li>
+                <li style="display: flex;align-items: center;">
+                    <img width="25" height="25"
+                    style="display: inline-block; vertical-align: middle;" 
+                     src="https://img.icons8.com/ios-filled/50/contact-card.png" alt="contact-card"/>
+                     &emsp;
+                    <a href="contact.html">Contact Me</a></li>
                 
             </ul>
         </nav>
 </div>
 
-     <div class="main">
+     <div class="main" style="width: 100vw; height:100vh;overflow-y: scroll;overflow-x: hidden;">
      
-         <div class="projectInfo">Have a look on my Amazing Projects!
+         <div class="projectInfo"><span style="margin-left: 50px;">Have a look on my Amazing Projects!</span>
          <div class="projectDetails">I have shared some of my CLI Typescript Projects.
-         <div class="projects">
+            <section class="projects">
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="5.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                      Currency-Converter
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/currency--converter.git"target="_blank" ><button  class="visit-button" >Visit</button></a>
+                    <!-- <div class="card__info">
+                      
+        
+                    </div> -->
+                  </div>
+                </div>
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="1.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                      To-Do-List
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/to-do-list.git" target="_blank"><button class="visit-button" >Visit</button></a>
+                    <!-- <div class="card__info">
+                     
+                    </div> -->
+                  </div>
+                </div>
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="4.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                      ATM-Project
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/cli-based-ATM.git" target="_blank"><button  class="visit-button">Visit</button></a>
+                    <!-- <div class="card__info">
+                     
+                    </div> -->
+                  </div>
+                </div>
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="2.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                      Student-Management-System
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/student-management-system.git" target="_blank"><button class="visit-button" >Visit</button></a>
+                    <!-- <div class="card__info">
+                      
+                    </div> -->
+                  </div>
+                </div>
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="3.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                      Adventure-Game
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/Adventure-Game.git"  target="_blank"><button class="visit-button">Visit</button></a>
+                    <!-- <div class="card__info">
+                     
+                    </div> -->
+                  </div>
+                </div>
+                <div class="projectbox">
+                  <div class="project-image">
+                    <img
+                      src="6.jpg"
+                    />
+                  </div>
+                  <div class="project-content">
+                    <p class="project-title">
+                     BMI-Calculator
+                    </p>
+                    <a href="https://github.com/Rabia-Ahmed18/BMI--calculator.git"  target="_blank"><button class="visit-button">Visit</button></a> 
+                    <!-- <div class="card__info">
+                      
+                    </div> -->
+                  </div>
+                </div>
+           
+              </section>
+
+         <!-- <div class="projects">
             
             
                 <div class="projectbox" style="background-image: url('5.jpg');">
@@ -40,7 +166,6 @@
                     <h3 class="project-title">To-Do-List</h3>
                     <a href="https://github.com/Rabia-Ahmed18/to-do-list.git" class="visit-button" target="_blank">Visit</a>
             </div>
-            
                 <div class="projectbox" style="background-image: url('4.jpg');">
                     <div class="project-image"></div>
                     <h3 class="project-title">ATM-Project</h3>
@@ -62,10 +187,14 @@
                     <a href="https://github.com/Rabia-Ahmed18/BMI--calculator.git" class="visit-button" target="_blank">Visit</a>        
             </div> 
        
-        </div>  
+        </div>   -->
+
+
     </div>  
     </div>        
 </div>
+
+
     </div>
 </body>
 </html>
