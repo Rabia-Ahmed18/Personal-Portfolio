@@ -70,12 +70,20 @@
                 
                    </div>
               </div>
-          <div class="devPic"><img src="./girl.png" alt="image"></div>
+          <div class="devPic"><img class="girl" src="./girl.png" alt="image"></div>
 
       </div>      
      
      
 </div>
+
+<button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+
+<script>
+    function toggleSidebar() {
+      document.querySelector('.sidebar').classList.toggle('active');
+    }
+    </script>
 
 </body>
 
