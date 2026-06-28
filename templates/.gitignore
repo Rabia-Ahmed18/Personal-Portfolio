@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.env
+.flaskenv
+Personal-Portfolio/
+.idea/
+.vscode/
+*.log
